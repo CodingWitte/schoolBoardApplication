@@ -1,0 +1,156 @@
+.cornerBox1 {
+    position: relative;
+    
+    
+    box-sizing: border-box;
+}
+
+.cornerBox1::before,
+.cornerBox1::after {
+    content: "";
+    position: absolute;
+    width: 20vw;
+    height: 7vh;
+    border: 0.25vw solid var(--secondaryColor);
+}
+
+.cornerBox1::before {
+    top: 0;
+    left: 0;
+    border-right: none;
+    border-bottom: none;
+}
+
+.cornerBox1::after {
+    bottom: 0;
+    right: 0;
+    border-left: none;
+    border-top: none;
+}
+
+
+
+
+.cornerBox2 {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.cornerBox2::before,
+.cornerBox2::after {
+    content: "";
+    position: absolute;
+    width: 20vw;
+    height: 7vh;
+    border: 0.25vw solid var(--secondaryColor);
+}
+
+.cornerBox2::before {
+    top: 0;
+    right: 0;
+    border-left: none;
+    border-bottom: none;
+}
+
+.cornerBox2::after {
+    bottom: 0;
+    left: 0;
+    border-right: none;
+    border-top: none;
+}
+
+
+
+.cornerBox3 {
+    position: relative;
+    
+    
+    box-sizing: border-box;
+}
+
+.cornerBox3::before,
+.cornerBox3::after {
+    content: "";
+    position: absolute;
+    width: 6.5vw;
+    height: 7vh;
+    border: 0.25vw solid var(--secondaryColor);
+}
+
+.cornerBox3::before {
+    top: 0;
+    right: 0;
+    border-left: none;
+    border-bottom: none;
+}
+
+.cornerBox3::after {
+    bottom: 0;
+    left: 0;
+    border-right: none;
+    border-top: none;
+}
+
+
+
+.cornerBox4 {
+    position: relative;
+    
+    
+    box-sizing: border-box;
+}
+
+.cornerBox4::before,
+.cornerBox4::after {
+    content: "";
+    position: absolute;
+    width: 6.5vw;
+    height: 11vh;
+    border: 0.25vw solid var(--secondaryColor);
+}
+
+.cornerBox4::before {
+    top: 0;
+    left: 0;
+    border-right: none;
+    border-bottom: none;
+}
+
+.cornerBox4::after {
+    bottom: 0;
+    right: 0;
+    border-left: none;
+    border-top: none;
+}
+
+
+
+.cornerBox5 {
+    position: relative;
+    
+    
+    box-sizing: border-box;
+}
+
+.cornerBox5::before,
+.cornerBox5::after {
+    content: "";
+    position: absolute;
+    width: 20vw;
+    height: 7vh;
+    border: 0.25vw solid var(--secondaryColor);
+}
+
+.cornerBox5::before {
+    top: 0;
+    left: 0;
+    border-right: none;
+    border-bottom: none;
+}
+
+.cornerBox5::after {
+    bottom: 0;
+    right: 0;
+    border-left: none;
+    border-top: none;
+}

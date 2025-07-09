@@ -1,0 +1,239 @@
+
+.selected{
+    outline: 2px dotted red;
+}
+.blur{
+     -webkit-backdrop-filter: blur(4px); /* For Safari support */
+    backdrop-filter: blur(4px);
+    background-color: rgba(0,0,0,0.4);
+}
+.popup{
+    
+    position: fixed;
+    padding: 10px;
+    color: white;
+    left: 0;
+    top: 0;
+}
+
+
+input[type="file"]{
+    display: none;
+}
+.S{
+    cursor: pointer;
+}
+.head{
+    position: relative;
+}
+.customFileUpload{
+    border: 4px solid rgb(100, 211, 255);
+    border-radius: 15px;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.4);
+}
+.btn{
+    color: white;
+    border: 3px solid rgb(100, 211, 255);
+    border-radius: 15px;
+    display: inline-block;
+    padding: 3px 6px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.4);
+    margin: 5px;
+}
+.f1{
+    flex:1;
+}
+.SwitchAddEdit{
+    font-size: 5vh;
+    position: absolute;
+    right: 0px;
+    top: -1vh;
+    height: fit-content;
+}
+.fitContent{
+    width: fit-content;
+}
+.customSelect{
+    border: 3px solid rgb(100,211,255);
+    border-radius: 17px;
+     position:relative;
+}
+.paddingInput{
+    padding: 3px;
+    border-radius: 15px;
+    height: 3vh;
+    font-weight: 900;
+    border: 3px solid rgb(100,211,255);
+    color: white;
+    background-color: rgba(0,0,0,0.2);
+}
+.frameCustomOption{
+    padding: 5px;
+    cursor: pointer;
+   
+}
+/* To hide the checkbox */
+.switch {
+  display: none;
+}
+
+.toggleSwitch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 40px;
+  height: 20px;
+  background-color: rgb(199, 199, 199);
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: .2s;
+}
+.toggleSwitch::after {
+  content: "";
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  left: 0px;
+  background: conic-gradient(rgb(104, 104, 104),white,rgb(104, 104, 104),white,rgb(104, 104, 104));
+  border-radius: 50%;
+  transition-duration: .3s;
+  box-shadow: 3px 1px 4px rgba(8, 8, 8, 0.308);
+}
+
+#layoutSwitch:checked+.toggleSwitch::after {
+  transform: translateX(100%);
+  transition-duration: .3s;
+}
+/* Switch background change */
+#layoutSwitch:checked+.toggleSwitch {
+  background-color: rgb(100,211,255);
+  transition-duration: .3s;
+}
+#createSwitch:checked+.toggleSwitch::after {
+  transform: translateX(100%);
+  transition-duration: .3s;
+}
+/* Switch background change */
+#createSwitch:checked+.toggleSwitch {
+  background-color: rgb(100,211,255);
+  transition-duration: .3s;
+}
+#paddingSwitch:checked+.toggleSwitch::after {
+  transform: translateX(100%);
+  transition-duration: .3s;
+}
+/* Switch background change */
+#paddingSwitch:checked+.toggleSwitch {
+  background-color: rgb(100,211,255);
+  transition-duration: .3s;
+}
+#customPaddingSwitch:checked+.toggleSwitch::after {
+  transform: translateX(100%);
+  transition-duration: .3s;
+}
+/* Switch background change */
+#customPaddingSwitch:checked+.toggleSwitch {
+  background-color: rgb(100,211,255);
+  transition-duration: .3s;
+}
+
+/**/
+
+
+
+
+
+.selectedFrameOption{
+    background-color: rgba(100,211,255,0.4);
+    padding: 5px;
+    cursor: pointer;
+    
+}
+.borderRadius17{
+    border-radius: 17px;
+}
+#frameOption1{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#frameOption3{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#frameSelectEntroleSymbole{
+    position: absolute;
+    right: 5px;
+    top: 0vh;
+    font-weight: bold;
+    font-size: 3vh;
+    cursor: pointer;
+}
+
+.inp{
+    border-radius: 8px;
+    padding: 5px;
+    background-color: rgba(0,0,0,0.3);
+    border: 3px solid rgb(100,211,255);
+    color: white;
+    outline: none;
+}
+
+.MTB1D25px{
+    margin-top: 1.25px;
+    margin-bottom: 1.25px
+}
+.MT5px{
+    margin-top: 5px;
+}
+.MT10px{
+    margin-top: 10px;
+}
+.MR20px{
+    margin-right: 20px;
+}
+.w120px{
+    width: 120px;
+}
+.MT20px{
+    margin-top: 20px;
+}
+.mL30px{
+    margin-left: 30px;
+}
+.MLAuto{
+    margin-left: auto;
+}
+.MRAuto{
+    margin-right: auto;
+}
+.frameOption{
+  
+}
+#frameSelectDiv{
+    
+}
+#textArea1{
+    width: 300px;
+    height: 150px;
+}
+#textAreaAddElms{
+    width: 300px;
+    height: 150px;
+}
+#prevImg2{
+    width: 12vw;
+    max-height: 40vh;
+}
+#prevImg{
+    width: 12vw;
+    max-height: 40vh;
+
+}
+.DN{
+    display: none;
+}

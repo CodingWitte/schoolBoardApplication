@@ -1,0 +1,166 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="stylesCornerBox.css">
+    <link rel="stylesheet" href="stylesEdit.css">
+    <link rel="stylesheet" href="popup.css">
+</head>
+    
+<body>
+    <div class="container">
+        <div class="subContainer flex">
+            <div class="left flex FDColumn">
+                <div class="top flex AIC">
+                    <img src="calenderImage.png" class="calenderImage" alt=""><p class="date TwoD5Em"><strong>todayortomorrow</strong></p>
+                </div>
+                <div class="bottom flex FDColumn">
+                    <div class="Mon flex"><strong><p class="weekDay">Mo</p></strong><div class=" oneD7vh weekDayText"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eum ipsam aut similique id delectus eligendi aliquam, velit magni, quaerat doloremque consequatur praesentium ullam minima in odit alias aperiam harum.</p></div></div>
+                    <div class="Tue flex"><strong><p class="weekDay">Di</p></strong><div class=" oneD7vh weekDayText"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eum ipsam aut similique id delectus eligendi aliquam, velit magni, quaerat doloremque consequatur praesentium ullam minima in odit alias aperiam harum.</p></div></div>
+                    <div class="Wen flex"><strong><p class="weekDay">Mi</p></strong><div class=" oneD7vh weekDayText"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eum ipsam aut similique id delectus eligendi aliquam, velit magni, quaerat doloremque consequatur praesentium ullam minima in odit alias aperiam harum.</p></div></div>
+                    <div class="Thr flex"><strong><p class="weekDay">Do</p></strong><div class=" oneD7vh weekDayText"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eum ipsam aut similique id delectus eligendi aliquam, velit magni, quaerat doloremque consequatur praesentium ullam minima in odit alias aperiam harum.</p></div></div>
+                    <div class="Fri flex"><strong><p class="weekDay">Fr</p></strong><div class=" oneD7vh weekDayText"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem eum ipsam aut similique id delectus eligendi aliquam, velit magni, quaerat doloremque consequatur praesentium ullam minima in odit alias aperiam harum.</p></div></div>
+                </div>
+            </div>
+            <div class="right flex FDColumn">
+                <div class="top2 cornerBox1 flex AIC JCC twoD5vh TAC">
+                    <p class="mTBAuto threeevh">this is not a motto this is <br> what so ever i have no clue and no glue</p>
+                    <img src="brainLight.png" alt="" class="brainlight">
+                    <img src="kgnLogo2.png" alt="" class="KgnLogo">
+                </div>
+                <div class="bottom2 flex">
+                    <div class="left2">
+                        <div class="top3 cornerBox3  flex FDColumn">
+                            <p class="threevh TAC twoD5vh"><strong>Headline</strong></p>
+                            <p class="" style="font-size: 2.2vh;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur voluptate ullam, accusantium commodi maxime corrupti rem. Earum sit doloribus repellat eum iusto explicabo ullam nesciunt? Voluptate optio eius voluptas nulla!</p>
+                            <img src="newsLatter2.png" class="newsLatterImg" alt="">
+                        </div>
+                        <div class="bottom3 flex FDColumn TAC JCC cornerBox4">
+                            <p class="threevh MB1vh" style="font-size: 3.1vh;"><strong>Hofdienst:</strong></p>
+                            <p class="twoD5vh">10d</p>
+                            <img src="globe1.PNG" class="globeImg" alt="">
+                        </div>
+                    </div>
+                    <div class="right2">
+                        <div class="top4 cornerBox2 flex FDColumn">
+                            
+                            
+                                <p class="fourD5vh TAC"><strong>Headline</strong></p>
+                                <div class="flex AIC MTAuto">
+                                    <img class="bookCoverImg editableImg MTAuto" src="bookCoverExample.jpg" alt="">
+                                    <div class="flex FDColumn ML1vw">
+                                        <p class="threevh MT1vh"><strong>secondaryHeadline</strong></p>
+                                        <p class="MT1vh twovh">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam accusantium voluptas ipsam assumenda, enim possimus doloribus officia officiis, unde molestias aliquid tenetur! Inventore labore nesciunt error hic voluptatem quam nulla. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam ex facilis vitae eveniet perferendis eius aut illum sit consectetur aliquid atque accusantium soluta distinctio asperiores, quidem expedita repellendus iste ratione! </p>
+                                    </div>
+                                </div>
+                               <img src="sheetOfpaper1.png" class="sheetOfPaperImg" alt="">
+                            
+                        </div>
+                        <div class="flex bottom4 AIC cornerBox5">
+                            <img src="directionSign.PNG" class="directionSignImg" alt=""><p class="selected">ok i will now use this empty space for a typing acsisize (which i dont know how to write) but anyways i think just typing a bit is not bad at all it is fun to do and trains my typing skills</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!--popup menu for editing and adding elms-->
+    <div id="popup" class="blur popup">
+        <div class="subPopup flex FDColumn">
+            <div class="head flex">
+                <span class="threevh">Bearbeiten</span>
+                
+    
+                
+                
+            </div>
+            <div class="menu">
+                <div id="forText">
+                    <div class="flex FDColumn">
+                        <textarea name="" id="textArea1"></textarea>
+                        <div>    
+                            <label for="fontSize">Schriftgroesse</label>
+                            <input type="number" name="fontSize" step="0.1" id="fontSize" min="0.1" max="6">
+                        </div>       
+                    </div>
+                </div>
+                <div id="forImg" class="forImgsStyle DN flex FDColumn AIC ">
+                    <img src="" alt="" id="prevImg">
+                    <div class="FileInputDiv MT10px">
+                        <label for="fileUpload" class="customFileUpload">Durchsuchen</label>
+                        <input type="file" name="fileUpload" id="fileUpload">
+                    </div>
+                </div>
+
+                <div id="forDiv" class="DN">
+                    <div class="flex fitContent">
+                        <span class="MR20px">Padding bearbeiten</span>
+                    </div>
+                    <div id="paddingMenu" class="DN MT5px">
+                        <div class="flex fitContent">
+                            <span class="MR20px">Custom padding</span>
+                        </div>
+                        <div id="paddingGeneralDiv" class="MT5px">
+                            <label for="paddingInput">Padding: </label>
+                            <input value="0" aria-valuemin="0" aria-valuemax="100" type="number" name="paddingInput" id="generalPaddingInput" class="MLAuto inp">
+                        </div>
+                        <div id="customPaddingDiv" class="DN MT5px">
+                            <div class="flex FDColumn">
+                                <div class="flex f1 MTB1D25px">
+                                    <label class="labelPaddingInput" for="inputPaddingL">Padding links: </label>
+                                    <input class="MLAuto paddingInp inp" value="0" aria-valuemin="0" aria-valuemax="100" type="number" name="inputPaddingL" id="inputPaddingL">
+                                </div>
+                                <div class="flex f1 MTB1D25px">
+                                    <label class="labelPaddingInput " for="inputPaddingR">Padding rechts: </label>
+                                    <input class="MLAuto paddingInp inp" value="0" aria-valuemin="0" aria-valuemax="100" type="number" name="inputPaddingR" id="inputPaddingR">
+                                </div>
+                                <div class="flex f1 MTB1D25px">
+                                    <label class="labelPaddingInput" for="inputPaddingT">Padding oben: </label>
+                                    <input class="MLAuto paddingInp inp" value="0" aria-valuemin="0" aria-valuemax="100" type="number" name="inputPaddingT" id="inputPaddingT">
+                                </div>
+                                <div class="flex f1 MTB1D25px">
+                                    <label class="labelPaddingInput " for="inputPaddingB">Padding unten: </label>
+                                    <input class="MLAuto paddingInp inp" value="0" aria-valuemin="0" aria-valuemax="100" type="number" name="inputPaddingB" id="inputPaddingB">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div id="frameSelectDiv" class="customSelect MT20px">
+                        <div id="frameOption1" class="customOption frameCustomOption selectedFrameOption borderRadius17">Kein Rahmen</div>
+                        <div id="frameOption2" class="customOption frameCustomOption DN">Rahmen: oben links, unten recths</div>
+                        <div id="frameOption3" class="customOption frameCustomOption DN">Rahmen: oben rechts, unten links</div>
+                        <div id="frameSelectEntroleSymbole">∇</div>
+                    </div>
+                    <div class="divPreview"></div>
+                    <div class="addButtonDiv">
+                        <button class="btn" id="addButton" type="button">Hinzufuegen</button>
+                    </div>
+
+
+                </div>
+            </div>
+            </div>
+            
+            <div class="controls flex ">
+                <button type="button" class="fourD5vh btn" id="prevButton"><strong>&lt;-</strong></button>                        
+                <button type="button" class="twoD5vh btn" id="doneButton"><strong>Fertig</strong></button>                        
+                <button type="button" class="fourD5vh btn" id="nextButton"><strong>-&gt;</strong></button>                            
+            </div>
+        </div>
+    
+    <script src="globalObjs.js"></script>
+    <script src="main.js"></script>
+    <script src="addEventListeners.js"></script>
+    <script src="write.js"></script>
+
+</body></html>
